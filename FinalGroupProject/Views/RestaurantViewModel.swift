@@ -11,7 +11,7 @@ class RestaurantViewModel: ObservableObject {
     @Published private(set) var restaurants: [Restaurant] = []
     
     init() {
-        restaurants = Restaurant.al
+        restaurants = Restaurant.all
     }
     
     func addRestaurand(restaurant: Restaurant){
