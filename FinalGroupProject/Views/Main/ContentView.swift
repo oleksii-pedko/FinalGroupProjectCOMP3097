@@ -1,16 +1,15 @@
 //
 //  ContentView.swift
-//  FinalGroupProject
+//  FinalGroupProjectCOMP3097
 //
-//  Created by Alex Pedko on 20.04.2022.
+//  Created by Sergey Pavlov on 2022-04-20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabBar()
     }
 }
 
